@@ -1,0 +1,21 @@
+GIT
+  remote: git://github.com/bdwong/firstgem.git
+  revision: 954663fcbf3efd3f80bd93346716bf9bdccfbabe
+  specs:
+    firstgem (0.0.2)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    rack (1.2.2)
+    sinatra (1.2.1)
+      rack (~> 1.1)
+      tilt (< 2.0, >= 1.2.2)
+    tilt (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  firstgem!
+  sinatra
